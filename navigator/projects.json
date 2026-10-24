@@ -1,0 +1,23 @@
+{
+  "updated": "2026-10-24",
+  "projects": [
+    {
+      "id": "todo-list",
+      "name": "Todo List Web App",
+      "desc": "輕量待辦事項管理：新增、標記完成、刪除，附 All/Active/Done 篩選、明暗主題、localStorage 持久化；單一自含 HTML 檔案，無外部資源。",
+      "stack": ["HTML", "CSS", "JavaScript", "localStorage"],
+      "status": "live",
+      "url": "https://jasonfungfung20261010.github.io/HermesAgent20261010/",
+      "category": "工具"
+    },
+    {
+      "id": "sales-dashboard",
+      "name": "銷售儀表板（2018–2020）",
+      "desc": "由 XLSX 銷售資料生成的繁中互動儀表板：KPI、月度營收趨勢、年度／地區／產品比較、可搜尋排序明細表，零毛利訂單標記；單一自含 HTML，無後端。",
+      "stack": ["HTML", "CSS", "JavaScript", "SVG", "openpyxl"],
+      "status": "dev",
+      "url": null,
+      "category": "數據可視化"
+    }
+  ]
+}
