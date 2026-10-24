@@ -30,6 +30,7 @@ jobs:
           cp index.html dist/
           cp -r README.md dist/ 2>/dev/null || true
           cp -r navigator dist/
+          cp -r courses dist/
           node -e "JSON.parse(require('fs').readFileSync('navigator/projects.json','utf8')); console.log('navigator/projects.json valid')" 2>/dev/null || true
           echo "Built static site -> dist/"
       - name: Upload artifact
